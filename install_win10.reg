@@ -1,0 +1,61 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\RegisteredApplications]
+"BrowserSelect"="Software\\Clients\\StartMenuInternet\\BrowserSelect\\Capabilities"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\BrowserSelect]
+@="Browser Selector"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\BrowserSelect\Capabilities]
+"ApplicationDescription"="Browser Selector"
+"ApplicationIcon"="C:\\Windows\\System32\\shell32.dll,13"
+"ApplicationName"="Browser Selector"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\BrowserSelect\Capabilities\FileAssociations]
+".htm"="BrowserSelectHTM"
+".html"="BrowserSelectHTM"
+".shtml"="BrowserSelectHTM"
+".xht"="BrowserSelectHTM"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\BrowserSelect\Capabilities\Startmenu]
+"StartMenuInternet"=""
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\BrowserSelect\Capabilities\URLAssociations]
+"http"="BrowserSelectHTM"
+"https"="BrowserSelectHTM"
+"ftp"="BrowserSelectHTM"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\BrowserSelect\DefaultIcon]
+@="C:\\Windows\\System32\\shell32.dll,13"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\BrowserSelect\shell]
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\BrowserSelect\shell\open]
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\BrowserSelect\shell\open\command]
+@="\"c:\\_Tools\\programs\\browserselect.exe\"" ; Modify here
+
+[HKEY_CURRENT_USER\Software\Classes\BrowserSelectHTM]
+@="BrowserSelect Handler"
+"AppUserModelId"="BrowserSelect"
+
+[HKEY_CURRENT_USER\Software\Classes\BrowserSelectHTM\Application]
+"AppUserModelId"="BrowserSelect"
+"ApplicationIcon"="C:\\Windows\\System32\\shell32.dll,13"
+"ApplicationName"="Browser Selector"
+"ApplicationDescription"="Browser Selector"
+"ApplicationCompany"="Browser Selector"
+
+[HKEY_CURRENT_USER\Software\Classes\BrowserSelectHTM\DefaultIcon]
+@="C:\\Windows\\System32\\shell32.dll,13"
+
+[HKEY_CURRENT_USER\Software\Classes\BrowserSelectHTM\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\BrowserSelectHTM\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\BrowserSelectHTM\shell\open\command]
+@="\"c:\\_Tools\\programs\\browserselect.exe\" \"%1\""  ; Modify here
+
+
+;[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer]
+;"NoNewAppAlert"=dword:00000001
