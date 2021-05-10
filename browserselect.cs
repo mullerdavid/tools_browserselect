@@ -319,8 +319,8 @@ namespace BrowserSelect
 				}
 				
 				//Add Edge
-				if (Edge.IsInstalled)
-					browsers.Add(new Edge());
+				//if (Edge.IsInstalled)
+				//	browsers.Add(new Edge());
 					
 				
 				if (! browsers.Any())
